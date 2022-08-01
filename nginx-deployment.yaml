@@ -13,7 +13,7 @@ spec:
         app: nginx
     spec:
       securityContext:
-  #       runAsUser: root #
+         runAsUser: root #
          runAsGroup: 3000
          fsGroup: 2000
       containers:
